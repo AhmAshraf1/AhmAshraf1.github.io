@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Ahmed Ashraf Helmi</title>
+  <meta name="description" content="Get in touch with Ahmed Ashraf Helmi for collaborations, opportunities, or just to say hello." />
+  <link rel="icon" href="/public/icons/favicon.ico" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-primaryBg text-primaryText font-sf scroll-smooth grain">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-[1200] bg-black/60 backdrop-blur-2xl border-b border-white/10 transition-colors" role="navigation" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+      <a href="/index.html" class="font-bold text-xl tracking-tight text-gradient-primary cursor-pointer focus-ring">Ahmed Ashraf Helmi</a>
+      <ul class="hidden md:flex items-center gap-8 text-secondaryText">
+        <li><a href="/index.html" class="nav-item" aria-label="Home">Home</a></li>
+        <li><a href="/about.html" class="nav-item" aria-label="About">About</a></li>
+        <li><a href="/projects.html" class="nav-item" aria-label="Projects">Projects</a></li>
+        <li><a href="/cv.html" class="nav-item" aria-label="CV">CV</a></li>
+        <li><a href="/contact.html" class="nav-item active" aria-label="Contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn" aria-label="Toggle menu" class="md:hidden w-8 h-6 flex flex-col justify-center gap-1">
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/80 backdrop-blur-2xl flex flex-col items-center justify-center gap-8 text-2xl">
+    <a href="/index.html" class="text-primaryText hover:text-info transition-colors duration-200">Home</a>
+    <a href="/about.html" class="text-primaryText hover:text-info transition-colors duration-200">About</a>
+    <a href="/projects.html" class="text-primaryText hover:text-info transition-colors duration-200">Projects</a>
+    <a href="/cv.html" class="text-primaryText hover:text-info transition-colors duration-200">CV</a>
+    <a href="/contact.html" class="text-primaryText hover:text-info transition-colors duration-200">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="pt-32 pb-20">
+    <!-- Hero Section -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 text-gradient-primary">
+          Let's Connect
+        </h1>
+        <p class="text-xl lg:text-2xl text-secondaryText leading-relaxed max-w-3xl mx-auto">
+          I'm always open to discussing new opportunities, collaborations, or just having a great conversation about AI and technology.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Methods Grid -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Email -->
+          <div class="card p-8 text-center group hover:scale-105 transition-all duration-300 border-l-4 border-l-info hover:border-l-accentLight">
+            <div class="w-16 h-16 bg-info/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <span class="text-3xl group-hover:rotate-12 transition-transform duration-300">📧</span>
+            </div>
+            <h3 class="text-xl font-bold mb-4 text-primaryText group-hover:text-info transition-colors duration-300">Email</h3>
+            <p class="text-secondaryText mb-6 leading-relaxed group-hover:text-white transition-colors duration-300">
+              The best way to reach me for professional inquiries and collaborations.
+            </p>
+            <a href="mailto:ahmed_ashraf15@icloud.com" class="btn-primary w-full group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-y-[-2px]">Send Email</span>
+            </a>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="card p-8 text-center group hover:scale-105 transition-all duration-300 border-l-4 border-l-success hover:border-l-accentLight">
+            <div class="w-16 h-16 bg-success/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <span class="text-3xl group-hover:rotate-12 transition-transform duration-300">💼</span>
+            </div>
+            <h3 class="text-xl font-bold mb-4 text-primaryText group-hover:text-success transition-colors duration-300">LinkedIn</h3>
+            <p class="text-secondaryText mb-6 leading-relaxed group-hover:text-white transition-colors duration-300">
+              Connect with me professionally and stay updated with my latest work.
+            </p>
+            <a href="https://www.linkedin.com/in/ahm-ashraf" target="_blank" rel="noopener" class="btn-secondary w-full group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-y-[-2px]">Connect</span>
+            </a>
+          </div>
+
+          <!-- GitHub -->
+          <div class="card p-8 text-center group hover:scale-105 transition-all duration-300 border-l-4 border-l-warning hover:border-l-accentLight">
+            <div class="w-16 h-16 bg-warning/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+              <span class="text-3xl group-hover:rotate-12 transition-transform duration-300">🐙</span>
+            </div>
+            <h3 class="text-xl font-bold mb-4 text-primaryText group-hover:text-warning transition-colors duration-300">GitHub</h3>
+            <p class="text-secondaryText mb-6 leading-relaxed group-hover:text-white transition-colors duration-300">
+              Explore my open-source projects and code contributions.
+            </p>
+            <a href="https://github.com/AhmAshraf1" target="_blank" rel="noopener" class="btn-secondary w-full group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-y-[-2px]">View Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto">
+        <div class="card p-8 lg:p-12 group hover:scale-105 transition-all duration-300">
+          <h2 class="text-3xl font-bold text-center mb-12 text-primaryText group-hover:text-info transition-colors duration-300">Send Me a Message</h2>
+          
+          <form id="contact-form" class="space-y-6">
+            <!-- Name and Email Row -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="form-group">
+                <label for="name" class="block text-sm font-medium text-primaryText mb-2 group-hover:text-info transition-colors duration-300">Full Name *</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  required
+                  class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-2xl text-primaryText placeholder-secondaryText focus:outline-none focus:ring-2 focus:ring-info focus:border-transparent transition-all duration-300 hover:bg-white/10 hover:border-white/20"
+                  placeholder="Your full name"
+                  data-validation="required"
+                />
+                <div class="validation-message hidden text-sm text-error mt-1"></div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="block text-sm font-medium text-primaryText mb-2 group-hover:text-info transition-colors duration-300">Email Address *</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  required
+                  class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-2xl text-primaryText placeholder-secondaryText focus:outline-none focus:ring-2 focus:ring-info focus:border-transparent transition-all duration-300 hover:bg-white/10 hover:border-white/20"
+                  placeholder="your.email@example.com"
+                  data-validation="email"
+                />
+                <div class="validation-message hidden text-sm text-error mt-1"></div>
+              </div>
+            </div>
+
+            <!-- Subject -->
+            <div class="form-group">
+              <label for="subject" class="block text-sm font-medium text-primaryText mb-2 group-hover:text-info transition-colors duration-300">Subject *</label>
+              <input 
+                type="text" 
+                id="subject" 
+                name="subject" 
+                required
+                class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-2xl text-primaryText placeholder-secondaryText focus:outline-none focus:ring-2 focus:ring-info focus:border-transparent transition-all duration-300 hover:bg-white/10 hover:border-white/20"
+                placeholder="What's this about?"
+                data-validation="required"
+              />
+              <div class="validation-message hidden text-sm text-error mt-1"></div>
+            </div>
+
+            <!-- Message Type -->
+            <div class="form-group">
+              <label for="message-type" class="block text-sm font-medium text-primaryText mb-2 group-hover:text-info transition-colors duration-300">Message Type</label>
+              <select 
+                id="message-type" 
+                name="message-type"
+                class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-2xl text-primaryText focus:outline-none focus:ring-2 focus:ring-info focus:border-transparent transition-all duration-300 hover:bg-white/10 hover:border-white/20"
+              >
+                <option value="general">General Inquiry</option>
+                <option value="collaboration">Project Collaboration</option>
+                <option value="opportunity">Job Opportunity</option>
+                <option value="consultation">Consultation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+              <label for="message" class="block text-sm font-medium text-primaryText mb-2 group-hover:text-info transition-colors duration-300">Message *</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="6"
+                required
+                class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-2xl text-primaryText placeholder-secondaryText focus:outline-none focus:ring-2 focus:ring-info focus:border-transparent transition-all duration-300 hover:bg-white/10 hover:border-white/20 resize-none"
+                placeholder="Tell me more about your inquiry..."
+                data-validation="required"
+              ></textarea>
+              <div class="validation-message hidden text-sm text-error mt-1"></div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+              <button 
+                type="submit" 
+                class="btn-primary px-12 py-4 text-lg font-semibold group hover:scale-105 transition-all duration-300"
+                id="submit-btn"
+              >
+                <span class="inline-block transition-transform duration-300 group-hover:translate-y-[-2px]">
+                  Send Message
+                </span>
+                <span class="loading-spinner hidden ml-2">⏳</span>
+              </button>
+            </div>
+          </form>
+
+          <!-- Success/Error Messages -->
+          <div id="form-messages" class="mt-6 hidden">
+            <div id="success-message" class="hidden p-4 bg-success/20 border border-success/40 rounded-2xl text-success animate-fade-in-up">
+              <div class="flex items-center gap-3">
+                <span class="text-xl">✅</span>
+                <span>Thank you! Your message has been sent successfully. I'll get back to you soon.</span>
+              </div>
+            </div>
+            <div id="error-message" class="hidden p-4 bg-error/20 border border-error/40 rounded-2xl text-error animate-fade-in-up">
+              <div class="flex items-center gap-3">
+                <span class="text-xl">❌</span>
+                <span>Oops! Something went wrong. Please try again or contact me directly via email.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Availability -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- Location -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300 border-l-4 border-l-info hover:border-l-accentLight">
+            <h3 class="text-2xl font-bold mb-6 text-primaryText group-hover:text-info transition-colors duration-300">📍 Location</h3>
+            <div class="space-y-4">
+              <div class="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/loc">
+                <div class="w-12 h-12 bg-info/20 rounded-xl flex items-center justify-center group-hover/loc:scale-110 transition-transform duration-300">
+                  <span class="text-2xl group-hover/loc:rotate-12 transition-transform duration-300">🇪🇬</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/loc:text-info transition-colors duration-300">Alexandria, Egypt</div>
+                  <div class="text-secondaryText group-hover/loc:text-white transition-colors duration-300">Primary location</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/loc">
+                <div class="w-12 h-12 bg-success/20 rounded-xl flex items-center justify-center group-hover/loc:scale-110 transition-transform duration-300">
+                  <span class="text-2xl group-hover/loc:rotate-12 transition-transform duration-300">🌍</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/loc:text-success transition-colors duration-300">Remote Work</div>
+                  <div class="text-secondaryText group-hover/loc:text-white transition-colors duration-300">Available worldwide</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/loc">
+                <div class="w-12 h-12 bg-warning/20 rounded-xl flex items-center justify-center group-hover/loc:scale-110 transition-transform duration-300">
+                  <span class="text-2xl group-hover/loc:rotate-12 transition-transform duration-300">✈️</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/loc:text-warning transition-colors duration-300">Travel</div>
+                  <div class="text-secondaryText group-hover/loc:text-white transition-colors duration-300">Open to on-site visits</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Availability -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300 border-l-4 border-l-success hover:border-l-accentLight">
+            <h3 class="text-2xl font-bold mb-6 text-primaryText group-hover:text-success transition-colors duration-300">⏰ Availability</h3>
+            <div class="space-y-4">
+              <div class="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/avail">
+                <div class="w-12 h-12 bg-success/20 rounded-xl flex items-center justify-center group-hover/avail:scale-110 transition-transform duration-300">
+                  <span class="text-2xl group-hover/avail:rotate-12 transition-transform duration-300">✅</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/avail:text-success transition-colors duration-300">Currently Available</div>
+                  <div class="text-secondaryText group-hover/avail:text-white transition-colors duration-300">Open to new opportunities</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/avail">
+                <div class="w-12 h-12 bg-info/20 rounded-xl flex items-center justify-center group-hover/avail:scale-110 transition-transform duration-300">
+                  <span class="text-2xl group-hover/avail:rotate-12 transition-transform duration-300">🤝</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/avail:text-info transition-colors duration-300">Collaborations</div>
+                  <div class="text-secondaryText group-hover/avail:text-white transition-colors duration-300">AI research & development</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/avail">
+                <div class="w-12 h-12 bg-warning/20 rounded-xl flex items-center justify-center group-hover/avail:scale-110 transition-transform duration-300">
+                  <span class="text-2xl group-hover/avail:rotate-12 transition-transform duration-300">💡</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/avail:text-warning transition-colors duration-300">Consulting</div>
+                  <div class="text-secondaryText group-hover/avail:text-white transition-colors duration-300">ML strategy & implementation</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Response Time -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="card p-12 group hover:scale-105 transition-all duration-300">
+          <h2 class="text-3xl font-bold mb-6 text-primaryText group-hover:text-info transition-colors duration-300">Quick Response Guarantee</h2>
+          <p class="text-xl text-secondaryText mb-8 leading-relaxed group-hover:text-white transition-colors duration-300">
+            I typically respond to all inquiries within 24 hours. For urgent matters, feel free to reach out directly via email or LinkedIn.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="metric-item group">
+              <div class="text-4xl font-bold text-info mb-2 group-hover:scale-110 transition-transform duration-300">24h</div>
+              <div class="text-secondaryText group-hover:text-white transition-colors duration-300">Response Time</div>
+            </div>
+            <div class="metric-item group">
+              <div class="text-4xl font-bold text-success mb-2 group-hover:scale-110 transition-transform duration-300">100%</div>
+              <div class="text-secondaryText group-hover:text-white transition-colors duration-300">Response Rate</div>
+            </div>
+            <div class="metric-item group">
+              <div class="text-4xl font-bold text-warning mb-2 group-hover:scale-110 transition-transform duration-300">5+</div>
+              <div class="text-secondaryText group-hover:text-white transition-colors duration-300">Years Experience</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="card p-12 group hover:scale-105 transition-all duration-300">
+          <h2 class="text-3xl font-bold mb-6 text-primaryText group-hover:text-info transition-colors duration-300">Ready to Start a Project?</h2>
+          <p class="text-xl text-secondaryText mb-8 leading-relaxed group-hover:text-white transition-colors duration-300">
+            Let's discuss your ideas and explore how we can work together to bring them to life.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/projects.html" class="btn-primary group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">View My Work</span>
+            </a>
+            <a href="/cv.html" class="btn-secondary group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">Download CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6 border-t border-white/10 text-center text-secondaryText">
+    <p class="text-sm">Alexandria, Egypt • © <span id="year"></span> Ahmed Ashraf Helmi</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

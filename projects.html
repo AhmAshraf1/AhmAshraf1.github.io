@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Ahmed Ashraf Helmi</title>
+  <meta name="description" content="Explore Ahmed Ashraf Helmi's AI, ML, and computer vision projects showcasing real-world applications and technical expertise." />
+  <link rel="icon" href="/public/icons/favicon.ico" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-primaryBg text-primaryText font-sf scroll-smooth grain">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-[1200] bg-black/60 backdrop-blur-2xl border-b border-white/10 transition-colors" role="navigation" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+      <a href="/index.html" class="font-bold text-xl tracking-tight text-gradient-primary cursor-pointer focus-ring">Ahmed Ashraf Helmi</a>
+      <ul class="hidden md:flex items-center gap-8 text-secondaryText">
+        <li><a href="/index.html" class="nav-item" aria-label="Home">Home</a></li>
+        <li><a href="/about.html" class="nav-item" aria-label="About">About</a></li>
+        <li><a href="/projects.html" class="nav-item active" aria-label="Projects">Projects</a></li>
+        <li><a href="/cv.html" class="nav-item" aria-label="CV">CV</a></li>
+        <li><a href="/contact.html" class="nav-item" aria-label="Contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn" aria-label="Toggle menu" class="md:hidden w-8 h-6 flex flex-col justify-center gap-1">
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/80 backdrop-blur-2xl flex flex-col items-center justify-center gap-8 text-2xl">
+    <a href="/index.html" class="text-primaryText hover:text-info transition-colors duration-200">Home</a>
+    <a href="/about.html" class="text-primaryText hover:text-info transition-colors duration-200">About</a>
+    <a href="/projects.html" class="text-primaryText hover:text-info transition-colors duration-200">Projects</a>
+    <a href="/cv.html" class="text-primaryText hover:text-info transition-colors duration-200">CV</a>
+    <a href="/contact.html" class="text-primaryText hover:text-info transition-colors duration-200">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="pt-32 pb-20">
+    <!-- Hero Section -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 text-gradient-primary">
+          My Projects
+        </h1>
+        <p class="text-xl lg:text-2xl text-secondaryText leading-relaxed max-w-3xl mx-auto">
+          A collection of AI-powered solutions that demonstrate real-world impact and technical innovation.
+        </p>
+      </div>
+    </section>
+
+    <!-- Tech Stack Marquee -->
+    <section class="px-6 mb-20">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-primaryText">Technologies I Work With</h2>
+        <div class="relative overflow-hidden">
+          <div class="tech-marquee flex gap-8 animate-marquee">
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🐍</span>
+              <span class="font-medium">Python</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🔥</span>
+              <span class="font-medium">PyTorch</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">👁️</span>
+              <span class="font-medium">OpenCV</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🐳</span>
+              <span class="font-medium">Docker</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">☁️</span>
+              <span class="font-medium">AWS</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🚀</span>
+              <span class="font-medium">FastAPI</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">📊</span>
+              <span class="font-medium">Pandas</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🎯</span>
+              <span class="font-medium">YOLO</span>
+            </div>
+            <!-- Duplicate for seamless loop -->
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🐍</span>
+              <span class="font-medium">Python</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🔥</span>
+              <span class="font-medium">PyTorch</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">👁️</span>
+              <span class="font-medium">OpenCV</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🐳</span>
+              <span class="font-medium">Docker</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">☁️</span>
+              <span class="font-medium">AWS</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🚀</span>
+              <span class="font-medium">FastAPI</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">📊</span>
+              <span class="font-medium">Pandas</span>
+            </div>
+            <div class="tech-item flex items-center gap-3 px-6 py-3 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
+              <span class="text-2xl">🎯</span>
+              <span class="font-medium">YOLO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section class="px-6 mb-12">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-wrap gap-3 justify-center">
+          <button class="filter-btn active px-6 py-2 rounded-2xl border border-white/20 text-primaryText bg-white/10 transition-all duration-300" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn px-6 py-2 rounded-2xl border border-white/20 text-secondaryText hover:text-primaryText hover:bg-white/10 transition-all duration-300" data-filter="cv">
+            Computer Vision
+          </button>
+          <button class="filter-btn px-6 py-2 rounded-2xl border border-white/20 text-secondaryText hover:text-primaryText hover:bg-white/10 transition-all duration-300" data-filter="ml">
+            Machine Learning
+          </button>
+          <button class="filter-btn px-6 py-2 rounded-2xl border border-white/20 text-secondaryText hover:text-primaryText hover:bg-white/10 transition-all duration-300" data-filter="deploy">
+            Deployment
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="px-6 mb-20">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+          <!-- Project 1: Plant Disease Detection -->
+          <div class="project-card card p-6 group hover:scale-105 transition-all duration-300 cursor-pointer" data-category="cv ml" data-project="plant-disease">
+            <div class="relative mb-6">
+              <div class="w-full h-48 bg-gradient-to-br from-success/20 to-success/10 rounded-2xl flex items-center justify-center">
+                <span class="text-6xl">🌱</span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="tag-cv px-3 py-1 rounded-full text-xs font-medium">CV</span>
+                <span class="tag-ml px-3 py-1 rounded-full text-xs font-medium ml-2">ML</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Plant Disease Detection</h3>
+            <p class="text-secondaryText leading-relaxed mb-4">
+              AI-powered system for detecting plant diseases using computer vision and deep learning.
+            </p>
+            <div class="flex items-center justify-between">
+              <div class="flex gap-2">
+                <span class="text-xs text-secondaryText">Python</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">OpenCV</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">TensorFlow</span>
+              </div>
+              <span class="text-info text-sm font-medium">View Details →</span>
+            </div>
+          </div>
+
+          <!-- Project 2: License Plate Recognition -->
+          <div class="project-card card p-6 group hover:scale-105 transition-all duration-300 cursor-pointer" data-category="cv" data-project="license-plate">
+            <div class="relative mb-6">
+              <div class="w-full h-48 bg-gradient-to-br from-info/20 to-info/10 rounded-2xl flex items-center justify-center">
+                <span class="text-6xl">🚗</span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="tag-cv px-3 py-1 rounded-full text-xs font-medium">CV</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Arabic License Plate Recognition</h3>
+            <p class="text-secondaryText leading-relaxed mb-4">
+              Real-time Arabic license plate detection and recognition system using YOLO and OCR.
+            </p>
+            <div class="flex items-center justify-between">
+              <div class="flex gap-2">
+                <span class="text-xs text-secondaryText">Python</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">YOLO</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">EasyOCR</span>
+              </div>
+              <span class="text-info text-sm font-medium">View Details →</span>
+            </div>
+          </div>
+
+          <!-- Project 3: MLOps Pipeline -->
+          <div class="project-card card p-6 group hover:scale-105 transition-all duration-300 cursor-pointer" data-category="deploy ml" data-project="mlops">
+            <div class="relative mb-6">
+              <div class="w-full h-48 bg-gradient-to-br from-warning/20 to-warning/10 rounded-2xl flex items-center justify-center">
+                <span class="text-6xl">⚡</span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="tag-deploy px-3 py-1 rounded-full text-xs font-medium">Deploy</span>
+                <span class="tag-ml px-3 py-1 rounded-full text-xs font-medium ml-2">ML</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">MLOps Pipeline</h3>
+            <p class="text-secondaryText leading-relaxed mb-4">
+              End-to-end machine learning pipeline with automated training, testing, and deployment.
+            </p>
+            <div class="flex items-center justify-between">
+              <div class="flex gap-2">
+                <span class="text-xs text-secondaryText">Docker</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">Kubernetes</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">AWS</span>
+              </div>
+              <span class="text-info text-sm font-medium">View Details →</span>
+            </div>
+          </div>
+
+          <!-- Project 4: Healthcare AI -->
+          <div class="project-card card p-6 group hover:scale-105 transition-all duration-300 cursor-pointer" data-category="ml cv" data-project="healthcare">
+            <div class="relative mb-6">
+              <div class="w-full h-48 bg-gradient-to-br from-error/20 to-error/10 rounded-2xl flex items-center justify-center">
+                <span class="text-6xl">🏥</span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="tag-ml px-3 py-1 rounded-full text-xs font-medium">ML</span>
+                <span class="tag-cv px-3 py-1 rounded-full text-xs font-medium ml-2">CV</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Medical Image Analysis</h3>
+            <p class="text-secondaryText leading-relaxed mb-4">
+              AI system for analyzing medical images and assisting in diagnostic procedures.
+            </p>
+            <div class="flex items-center justify-between">
+              <div class="flex gap-2">
+                <span class="text-xs text-secondaryText">PyTorch</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">Medical Imaging</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">DICOM</span>
+              </div>
+              <span class="text-info text-sm font-medium">View Details →</span>
+            </div>
+          </div>
+
+          <!-- Project 5: Real-time Object Detection -->
+          <div class="project-card card p-6 group hover:scale-105 transition-all duration-300 cursor-pointer" data-category="cv deploy" data-project="object-detection">
+            <div class="relative mb-6">
+              <div class="w-full h-48 bg-gradient-to-br from-accent/20 to-accent/10 rounded-2xl flex items-center justify-center">
+                <span class="text-6xl">🎯</span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="tag-cv px-3 py-1 rounded-full text-xs font-medium">CV</span>
+                <span class="tag-deploy px-3 py-1 rounded-full text-xs font-medium ml-2">Deploy</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Real-time Object Detection</h3>
+            <p class="text-secondaryText leading-relaxed mb-4">
+              High-performance object detection system optimized for real-time video processing.
+            </p>
+            <div class="flex items-center justify-between">
+              <div class="flex gap-2">
+                <span class="text-xs text-secondaryText">YOLO</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">OpenCV</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">C++</span>
+              </div>
+              <span class="text-info text-sm font-medium">View Details →</span>
+            </div>
+          </div>
+
+          <!-- Project 6: Data Pipeline -->
+          <div class="project-card card p-6 group hover:scale-105 transition-all duration-300 cursor-pointer" data-category="deploy" data-project="data-pipeline">
+            <div class="relative mb-6">
+              <div class="w-full h-48 bg-gradient-to-br from-success/20 to-success/10 rounded-2xl flex items-center justify-center">
+                <span class="text-6xl">📊</span>
+              </div>
+              <div class="absolute top-3 right-3">
+                <span class="tag-deploy px-3 py-1 rounded-full text-xs font-medium">Deploy</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Data Processing Pipeline</h3>
+            <p class="text-secondaryText leading-relaxed mb-4">
+              Scalable ETL pipeline for processing large datasets with real-time monitoring.
+            </p>
+            <div class="flex items-center justify-between">
+              <div class="flex gap-2">
+                <span class="text-xs text-secondaryText">Apache Spark</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">Kafka</span>
+                <span class="text-xs text-secondaryText">•</span>
+                <span class="text-xs text-secondaryText">Redis</span>
+              </div>
+              <span class="text-info text-sm font-medium">View Details →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Metrics -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <div class="card p-12 text-center">
+          <h2 class="text-3xl font-bold mb-12 text-primaryText">Project Impact</h2>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <div class="text-4xl font-bold text-info mb-2">95%</div>
+              <div class="text-secondaryText">Accuracy Rate</div>
+            </div>
+            <div>
+              <div class="text-4xl font-bold text-success mb-2">10x</div>
+              <div class="text-secondaryText">Performance Improvement</div>
+            </div>
+            <div>
+              <div class="text-4xl font-bold text-warning mb-2">50K+</div>
+              <div class="text-secondaryText">Images Processed</div>
+            </div>
+            <div>
+              <div class="text-4xl font-bold text-error mb-2">24/7</div>
+              <div class="text-secondaryText">System Uptime</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="card p-12">
+          <h2 class="text-3xl font-bold mb-6 text-primaryText">Interested in Collaboration?</h2>
+          <p class="text-xl text-secondaryText mb-8 leading-relaxed">
+            I'm always open to discussing new projects and opportunities. Let's explore how we can work together.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact.html" class="btn-primary">
+              Get in Touch
+            </a>
+            <a href="/cv.html" class="btn-secondary">
+              View My CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="fixed inset-0 bg-black/80 backdrop-blur-2xl z-[1400] hidden flex items-center justify-center p-6">
+    <div class="bg-secondaryBg rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+      <div class="p-8">
+        <div class="flex items-center justify-between mb-6">
+          <h2 id="modal-title" class="text-3xl font-bold text-primaryText"></h2>
+          <button id="close-modal" class="w-10 h-10 rounded-2xl bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors duration-200">
+            <span class="text-2xl">×</span>
+          </button>
+        </div>
+        <div id="modal-content" class="prose prose-lg prose-invert max-w-none">
+          <!-- Modal content will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6 border-t border-white/10 text-center text-secondaryText">
+    <p class="text-sm">Alexandria, Egypt • © <span id="year"></span> Ahmed Ashraf Helmi</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

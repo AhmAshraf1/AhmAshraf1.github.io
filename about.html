@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Ahmed Ashraf Helmi</title>
+  <meta name="description" content="Learn more about Ahmed Ashraf Helmi's background, skills, and expertise in AI & Data Science." />
+  <link rel="icon" href="/public/icons/favicon.ico" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-primaryBg text-primaryText font-sf scroll-smooth grain">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-[1200] bg-black/60 backdrop-blur-2xl border-b border-white/10 transition-colors" role="navigation" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+      <a href="/index.html" class="font-bold text-xl tracking-tight text-gradient-primary cursor-pointer focus-ring">Ahmed Ashraf Helmi</a>
+      <ul class="hidden md:flex items-center gap-8 text-secondaryText">
+        <li><a href="/index.html" class="nav-item" aria-label="Home">Home</a></li>
+        <li><a href="/about.html" class="nav-item active" aria-label="About">About</a></li>
+        <li><a href="/projects.html" class="nav-item" aria-label="Projects">Projects</a></li>
+        <li><a href="/cv.html" class="nav-item" aria-label="CV">CV</a></li>
+        <li><a href="/contact.html" class="nav-item" aria-label="Contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn" aria-label="Toggle menu" class="md:hidden w-8 h-6 flex flex-col justify-center gap-1">
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/80 backdrop-blur-2xl flex flex-col items-center justify-center gap-8 text-2xl">
+    <a href="/index.html" class="text-primaryText hover:text-info transition-colors duration-200">Home</a>
+    <a href="/about.html" class="text-primaryText hover:text-info transition-colors duration-200">About</a>
+    <a href="/projects.html" class="text-primaryText hover:text-info transition-colors duration-200">Projects</a>
+    <a href="/cv.html" class="text-primaryText hover:text-info transition-colors duration-200">CV</a>
+    <a href="/contact.html" class="text-primaryText hover:text-info transition-colors duration-200">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="pt-32 pb-20">
+    <!-- Hero Section -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 text-gradient-primary">
+          About Me
+        </h1>
+        <p class="text-xl lg:text-2xl text-secondaryText leading-relaxed max-w-3xl mx-auto">
+          Passionate about leveraging AI to solve real-world problems and create meaningful impact in healthcare and technology.
+        </p>
+      </div>
+    </section>
+
+    <!-- Personal Story -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto">
+        <div class="card p-8 lg:p-12">
+          <h2 class="text-3xl font-bold mb-6 text-primaryText">My Journey</h2>
+          <div class="prose prose-lg prose-invert max-w-none">
+            <p class="text-secondaryText leading-relaxed mb-6">
+              I'm <strong class="text-primaryText">Ahmed Ashraf Helmi</strong>, an AI & Data Science Engineer based in Alexandria, Egypt. My passion lies at the intersection of machine learning, computer vision, and real-world applications.
+            </p>
+            <p class="text-secondaryText leading-relaxed mb-6">
+              With a strong foundation in both theoretical concepts and practical implementation, I specialize in building scalable AI systems that can process and analyze complex data in real-time. My work spans across various domains, from healthcare diagnostics to autonomous systems.
+            </p>
+            <p class="text-secondaryText leading-relaxed">
+              I believe in the power of AI to transform industries and improve lives. Every project I work on is driven by this vision, combining cutting-edge technology with thoughtful design to create solutions that matter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Grid -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-primaryText">Skills & Expertise</h2>
+        
+        <!-- Core Skills -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <div class="card p-6 group hover:scale-105 transition-transform duration-300">
+            <div class="w-12 h-12 bg-info/20 rounded-2xl flex items-center justify-center mb-4">
+              <span class="text-2xl">🤖</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Machine Learning</h3>
+            <p class="text-secondaryText leading-relaxed">
+              Deep learning, neural networks, model optimization, and deployment strategies.
+            </p>
+          </div>
+
+          <div class="card p-6 group hover:scale-105 transition-transform duration-300">
+            <div class="w-12 h-12 bg-success/20 rounded-2xl flex items-center justify-center mb-4">
+              <span class="text-2xl">👁️</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Computer Vision</h3>
+            <p class="text-secondaryText leading-relaxed">
+              Image processing, object detection, segmentation, and real-time video analysis.
+            </p>
+          </div>
+
+          <div class="card p-6 group hover:scale-105 transition-transform duration-300">
+            <div class="w-12 h-12 bg-warning/20 rounded-2xl flex items-center justify-center mb-4">
+              <span class="text-2xl">⚡</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">MLOps & Deployment</h3>
+            <p class="text-secondaryText leading-relaxed">
+              Model serving, containerization, CI/CD pipelines, and cloud infrastructure.
+            </p>
+          </div>
+
+          <div class="card p-6 group hover:scale-105 transition-transform duration-300">
+            <div class="w-12 h-12 bg-error/20 rounded-2xl flex items-center justify-center mb-4">
+              <span class="text-2xl">📊</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Data Engineering</h3>
+            <p class="text-secondaryText leading-relaxed">
+              Data pipelines, ETL processes, database design, and big data technologies.
+            </p>
+          </div>
+
+          <div class="card p-6 group hover:scale-105 transition-transform duration-300">
+            <div class="w-12 h-12 bg-accent/20 rounded-2xl flex items-center justify-center mb-4">
+              <span class="text-2xl">🔬</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Research & Development</h3>
+            <p class="text-secondaryText leading-relaxed">
+              Novel algorithm development, academic research, and innovation in AI.
+            </p>
+          </div>
+
+          <div class="card p-6 group hover:scale-105 transition-transform duration-300">
+            <div class="w-12 h-12 bg-info/20 rounded-2xl flex items-center justify-center mb-4">
+              <span class="text-2xl">🏥</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-primaryText">Healthcare AI</h3>
+            <p class="text-secondaryText leading-relaxed">
+              Medical imaging, diagnostic systems, and AI-powered healthcare solutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="card p-8">
+          <h3 class="text-2xl font-semibold mb-6 text-primaryText">Technical Proficiency</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="text-lg font-medium mb-4 text-secondaryText">Programming Languages</h4>
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="text-primaryText">Python</span>
+                  <div class="w-24 h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-info rounded-full" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-primaryText">C++</span>
+                  <div class="w-24 h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-info rounded-full" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-primaryText">JavaScript</span>
+                  <div class="w-24 h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-info rounded-full" style="width: 75%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h4 class="text-lg font-medium mb-4 text-secondaryText">Frameworks & Tools</h4>
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="text-primaryText">PyTorch/TensorFlow</span>
+                  <div class="w-24 h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-success rounded-full" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-primaryText">OpenCV</span>
+                  <div class="w-24 h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-success rounded-full" style="width: 88%"></div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-primaryText">Docker/Kubernetes</span>
+                  <div class="w-24 h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-success rounded-full" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="card p-8 text-center">
+            <div class="text-4xl font-bold text-info mb-2">15+</div>
+            <div class="text-secondaryText">Projects Completed</div>
+          </div>
+          <div class="card p-8 text-center">
+            <div class="text-4xl font-bold text-success mb-2">3+</div>
+            <div class="text-secondaryText">Years Experience</div>
+          </div>
+          <div class="card p-8 text-center">
+            <div class="text-4xl font-bold text-warning mb-2">5+</div>
+            <div class="text-secondaryText">Technologies Mastered</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="card p-12">
+          <h2 class="text-3xl font-bold mb-6 text-primaryText">Ready to Collaborate?</h2>
+          <p class="text-xl text-secondaryText mb-8 leading-relaxed">
+            I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/projects.html" class="btn-primary">
+              View My Work
+            </a>
+            <a href="/contact.html" class="btn-secondary">
+              Get in Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6 border-t border-white/10 text-center text-secondaryText">
+    <p class="text-sm">Alexandria, Egypt • © <span id="year"></span> Ahmed Ashraf Helmi</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

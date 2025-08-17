@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Ashraf Helmi — AI Engineer & Data Scientist</title>
+  <meta name="description" content="AI Engineer and Data Scientist specializing in computer vision, machine learning, and MLOps. Explore my projects and experience." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ahmedashraf.com/" />
+  <meta property="og:title" content="Ahmed Ashraf Helmi — AI Engineer & Data Scientist" />
+  <meta property="og:description" content="AI Engineer and Data Scientist specializing in computer vision, machine learning, and MLOps. Explore my projects and experience." />
+  <meta property="og:image" content="https://ahmedashraf.com/public/images/og-image.jpg" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://ahmedashraf.com/" />
+  <meta property="twitter:title" content="Ahmed Ashraf Helmi — AI Engineer & Data Scientist" />
+  <meta property="twitter:description" content="AI Engineer and Data Scientist specializing in computer vision, machine learning, and MLOps. Explore my projects and experience." />
+  <meta property="twitter:image" content="https://ahmedashraf.com/public/images/og-image.jpg" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/public/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/public/icons/apple-touch-icon.png" />
+  
+  <!-- CSS -->
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ahmed Ashraf Helmi",
+    "jobTitle": "AI Engineer & Data Scientist",
+    "description": "AI Engineer and Data Scientist specializing in computer vision, machine learning, and MLOps",
+    "url": "https://ahmedashraf.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/ahm-ashraf",
+      "https://github.com/AhmAshraf1"
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Deep Learning",
+      "MLOps",
+      "Python",
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cairo",
+      "addressCountry": "Egypt"
+    }
+  }
+  </script>
+</head>
+<body class="min-h-screen bg-primaryBg text-primaryText font-sf scroll-smooth grain">
+  <!-- Skip to content link for accessibility -->
+  <a href="#main-content" class="skip-to-content focus-ring">Skip to main content</a>
+  
+  <!-- Scroll Progress Bar -->
+  <div id="scrollProgress" class="fixed top-0 left-0 w-0 h-1 bg-gradient-to-r from-info to-accentLight z-[1300] transition-all duration-300"></div>
+  
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-[1200] bg-black/60 backdrop-blur-2xl border-b border-white/10 transition-colors" role="navigation" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+      <a href="/index.html" class="font-bold text-xl tracking-tight text-gradient-primary cursor-pointer focus-ring" id="logo" tabindex="0">Ahmed Ashraf Helmi</a>
+      <ul class="hidden md:flex items-center gap-8 text-secondaryText">
+        <li><a href="/index.html" class="nav-item active" aria-label="Home">Home</a></li>
+        <li><a href="/about.html" class="nav-item" aria-label="About">About</a></li>
+        <li><a href="/projects.html" class="nav-item" aria-label="Projects">Projects</a></li>
+        <li><a href="/cv.html" class="nav-item" aria-label="CV">CV</a></li>
+        <li><a href="/contact.html" class="nav-item" aria-label="Contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn" aria-label="Toggle menu" class="md:hidden w-8 h-6 flex flex-col justify-center gap-1">
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/80 backdrop-blur-2xl flex flex-col items-center justify-center gap-8 text-2xl">
+    <a href="/index.html" class="text-primaryText hover:text-info transition-colors duration-200">Home</a>
+    <a href="/about.html" class="text-primaryText hover:text-info transition-colors duration-200">About</a>
+    <a href="/projects.html" class="text-primaryText hover:text-info transition-colors duration-200">Projects</a>
+    <a href="/cv.html" class="text-primaryText hover:text-info transition-colors duration-200">CV</a>
+    <a href="/contact.html" class="text-primaryText hover:text-info transition-colors duration-200">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="pt-32 pb-20">
+    <!-- HERO Section -->
+    <section class="px-6 mb-20">
+      <div class="max-w-7xl mx-auto">
+        <!-- Spotlight Effect -->
+        <div id="spotlight" class="absolute inset-0 pointer-events-none opacity-30"></div>
+        
+        <!-- Animated Gradient Mesh -->
+        <div class="absolute inset-0 bg-hero-radial animate-pulse-glow"></div>
+        
+        <div class="relative z-10 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <!-- Text Content -->
+          <div class="flex-1 text-center lg:text-left">
+            <h1 class="text-5xl lg:text-7xl font-bold leading-tight tracking-tight mb-6 text-gradient-secondary">
+              AI Engineer &
+              <span class="block text-gradient-primary">Data Scientist</span>
+            </h1>
+            <p class="text-lg lg:text-xl text-secondaryText max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-8">
+              Specializing in computer vision, machine learning, and MLOps. 
+              Building intelligent systems that solve real-world problems.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a href="/projects.html" class="btn-primary group hover:scale-105 transition-all duration-300">
+                <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">View My Work</span>
+              </a>
+              <a href="/contact.html" class="btn-secondary group hover:scale-105 transition-all duration-300">
+                <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">Get in Touch</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Profile Card -->
+          <div class="flex-shrink-0">
+            <div class="card p-8 rounded-3xl frosted-glass shadow-apple-xl border border-white/10 group hover:scale-105 transition-all duration-300">
+              <div class="w-64 h-64 rounded-3xl overflow-hidden bg-gradient-to-br from-info/20 to-accentLight/20 flex items-center justify-center">
+                <!-- Fallback Profile Image -->
+                <div class="profile-image text-6xl text-info group-hover:scale-110 transition-transform duration-300">👨‍💻</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6 border-t border-white/10 text-center text-secondaryText">
+    <p class="text-sm">Cairo, Egypt • © <span id="year"></span> Ahmed Ashraf Helmi</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

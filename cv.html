@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Ahmed Ashraf Helmi</title>
+  <meta name="description" content="Ahmed Ashraf Helmi's professional experience, education, and achievements in AI & Data Science." />
+  <link rel="icon" href="/public/icons/favicon.ico" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-primaryBg text-primaryText font-sf scroll-smooth grain">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-[1200] bg-black/60 backdrop-blur-2xl border-b border-white/10 transition-colors" role="navigation" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+      <a href="/index.html" class="font-bold text-xl tracking-tight text-gradient-primary cursor-pointer focus-ring">Ahmed Ashraf Helmi</a>
+      <ul class="hidden md:flex items-center gap-8 text-secondaryText">
+        <li><a href="/index.html" class="nav-item" aria-label="Home">Home</a></li>
+        <li><a href="/about.html" class="nav-item" aria-label="About">About</a></li>
+        <li><a href="/projects.html" class="nav-item" aria-label="Projects">Projects</a></li>
+        <li><a href="/cv.html" class="nav-item active" aria-label="CV">CV</a></li>
+        <li><a href="/contact.html" class="nav-item" aria-label="Contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn" aria-label="Toggle menu" class="md:hidden w-8 h-6 flex flex-col justify-center gap-1">
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+        <span class="block h-0.5 bg-primaryText rounded-full transition-all duration-200"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black/80 backdrop-blur-2xl flex flex-col items-center justify-center gap-8 text-2xl">
+    <a href="/index.html" class="text-primaryText hover:text-info transition-colors duration-200">Home</a>
+    <a href="/about.html" class="text-primaryText hover:text-info transition-colors duration-200">About</a>
+    <a href="/projects.html" class="text-primaryText hover:text-info transition-colors duration-200">Projects</a>
+    <a href="/cv.html" class="text-primaryText hover:text-info transition-colors duration-200">CV</a>
+    <a href="/contact.html" class="text-primaryText hover:text-info transition-colors duration-200">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="pt-32 pb-20">
+    <!-- Hero Section -->
+    <section class="px-6 mb-20">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 text-gradient-primary">
+          Professional Experience
+        </h1>
+        <p class="text-xl lg:text-2xl text-secondaryText leading-relaxed max-w-3xl mx-auto">
+          My journey in AI & Data Science, from academic foundations to real-world applications.
+        </p>
+        <div class="mt-8">
+          <a href="#" class="btn-primary inline-flex items-center gap-2 group hover:scale-105 transition-all duration-300">
+            <span class="group-hover:rotate-12 transition-transform duration-300">📄</span>
+            Download CV (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-primaryText">Work Experience</h2>
+        
+        <!-- Timeline Container -->
+        <div class="relative">
+          <!-- Timeline Line with Gradient -->
+          <div class="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-info via-accentLight to-warning rounded-full"></div>
+          
+          <!-- Experience Items -->
+          <div class="space-y-12">
+            <!-- Experience 1 -->
+            <div class="relative flex items-start gap-8 group">
+              <!-- Interactive Timeline Dot -->
+              <div class="relative z-10 flex-shrink-0 w-16 h-16 bg-info rounded-full flex items-center justify-center shadow-apple group-hover:scale-110 group-hover:shadow-apple-xl transition-all duration-500 cursor-pointer timeline-dot" data-year="2023">
+                <span class="text-2xl group-hover:rotate-12 transition-transform duration-300">💼</span>
+                <!-- Pulse effect -->
+                <div class="absolute inset-0 bg-info rounded-full animate-ping opacity-20"></div>
+              </div>
+              
+              <!-- Content Card with Enhanced Hover -->
+              <div class="flex-1 card p-8 group-hover:scale-105 group-hover:shadow-apple-xl transition-all duration-500 border-l-4 border-l-info group-hover:border-l-accentLight">
+                <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                  <h3 class="text-2xl font-bold text-primaryText group-hover:text-info transition-colors duration-300">AI Research Engineer</h3>
+                  <span class="text-info font-medium bg-info/10 px-4 py-2 rounded-full group-hover:bg-info/20 transition-colors duration-300">2023 - Present</span>
+                </div>
+                <div class="text-lg text-secondaryText mb-4 group-hover:text-primaryText transition-colors duration-300">TechCorp AI Solutions</div>
+                <p class="text-secondaryText leading-relaxed mb-6 group-hover:text-white transition-colors duration-300">
+                  Leading research initiatives in computer vision and deep learning. Developed novel algorithms for real-time object detection achieving 95%+ accuracy. Mentored junior engineers and contributed to 3+ research papers.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="tag-cv px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Computer Vision</span>
+                  <span class="tag-ml px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Deep Learning</span>
+                  <span class="tag-deploy px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Research</span>
+                </div>
+                <div class="text-sm text-secondaryText group-hover:text-white transition-colors duration-300">
+                  <strong>Key Achievements:</strong> 40% improvement in detection speed, 2 patents filed, team of 5 engineers
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="relative flex items-start gap-8 group">
+              <!-- Interactive Timeline Dot -->
+              <div class="relative z-10 flex-shrink-0 w-16 h-16 bg-success rounded-full flex items-center justify-center shadow-apple group-hover:scale-110 group-hover:shadow-apple-xl transition-all duration-500 cursor-pointer timeline-dot" data-year="2022">
+                <span class="text-2xl group-hover:rotate-12 transition-transform duration-300">🚀</span>
+                <!-- Pulse effect -->
+                <div class="absolute inset-0 bg-success rounded-full animate-ping opacity-20"></div>
+              </div>
+              
+              <!-- Content Card with Enhanced Hover -->
+              <div class="flex-1 card p-8 group-hover:scale-105 group-hover:shadow-apple-xl transition-all duration-500 border-l-4 border-l-success group-hover:border-l-accentLight">
+                <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                  <h3 class="text-2xl font-bold text-primaryText group-hover:text-success transition-colors duration-300">Machine Learning Engineer</h3>
+                  <span class="text-success font-medium bg-success/10 px-4 py-2 rounded-full group-hover:bg-success/20 transition-colors duration-300">2022 - 2023</span>
+                </div>
+                <div class="text-lg text-secondaryText mb-4 group-hover:text-primaryText transition-colors duration-300">DataFlow Systems</div>
+                <p class="text-secondaryText leading-relaxed mb-6 group-hover:text-white transition-colors duration-300">
+                  Built scalable ML pipelines processing 1M+ data points daily. Implemented automated model training and deployment using MLOps best practices. Reduced model deployment time by 60%.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="tag-ml px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">MLOps</span>
+                  <span class="tag-deploy px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">AWS</span>
+                  <span class="tag-cv px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Data Engineering</span>
+                </div>
+                <div class="text-sm text-secondaryText group-hover:text-white transition-colors duration-300">
+                  <strong>Key Achievements:</strong> 60% faster deployment, 99.9% system uptime, $200K cost savings
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="relative flex items-start gap-8 group">
+              <!-- Interactive Timeline Dot -->
+              <div class="relative z-10 flex-shrink-0 w-16 h-16 bg-warning rounded-full flex items-center justify-center shadow-apple group-hover:scale-110 group-hover:shadow-apple-xl transition-all duration-500 cursor-pointer timeline-dot" data-year="2021">
+                <span class="text-2xl group-hover:rotate-12 transition-transform duration-300">🎓</span>
+                <!-- Pulse effect -->
+                <div class="absolute inset-0 bg-warning rounded-full animate-ping opacity-20"></div>
+              </div>
+              
+              <!-- Content Card with Enhanced Hover -->
+              <div class="flex-1 card p-8 group-hover:scale-105 group-hover:shadow-apple-xl transition-all duration-500 border-l-4 border-l-warning group-hover:border-l-accentLight">
+                <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                  <h3 class="text-2xl font-bold text-primaryText group-hover:text-warning transition-colors duration-300">AI Research Intern</h3>
+                  <span class="text-warning font-medium bg-warning/10 px-4 py-2 rounded-full group-hover:bg-warning/20 transition-colors duration-300">2021 - 2022</span>
+                </div>
+                <div class="text-lg text-secondaryText mb-4 group-hover:text-primaryText transition-colors duration-300">University Research Lab</div>
+                <p class="text-secondaryText leading-relaxed mb-6 group-hover:text-white transition-colors duration-300">
+                  Conducted research on computer vision applications in healthcare. Developed novel approaches for medical image analysis achieving 92% accuracy in disease detection.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="tag-cv px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Medical AI</span>
+                  <span class="tag-ml px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Research</span>
+                  <span class="tag-deploy px-3 py-1 rounded-full text-sm font-medium hover:scale-110 transition-transform duration-200">Healthcare</span>
+                </div>
+                <div class="text-sm text-secondaryText group-hover:text-white transition-colors duration-300">
+                  <strong>Key Achievements:</strong> 1 research paper published, 2 conference presentations, 92% accuracy
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-primaryText">Education</h2>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- Degree 1 -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300 border-l-4 border-l-info hover:border-l-accentLight">
+            <div class="flex items-start gap-4">
+              <div class="w-16 h-16 bg-info/20 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <span class="text-3xl group-hover:rotate-12 transition-transform duration-300">🎓</span>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl font-bold text-primaryText mb-2 group-hover:text-info transition-colors duration-300">Master of Science in AI</h3>
+                <div class="text-lg text-secondaryText mb-2 group-hover:text-primaryText transition-colors duration-300">Stanford University</div>
+                <div class="text-info font-medium mb-3 bg-info/10 px-3 py-1 rounded-full inline-block group-hover:bg-info/20 transition-colors duration-300">2021 - 2023</div>
+                <p class="text-secondaryText leading-relaxed mb-4 group-hover:text-white transition-colors duration-300">
+                  Specialized in machine learning and computer vision. Graduated with distinction (GPA: 3.9/4.0). Thesis on "Advanced Object Detection in Medical Imaging."
+                </p>
+                <div class="text-sm text-secondaryText group-hover:text-white transition-colors duration-300">
+                  <strong>Relevant Courses:</strong> Deep Learning, Computer Vision, MLOps, Research Methods
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Degree 2 -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300 border-l-4 border-l-success hover:border-l-accentLight">
+            <div class="flex items-start gap-4">
+              <div class="w-16 h-16 bg-success/20 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <span class="text-2xl group-hover:rotate-12 transition-transform duration-300">⚡</span>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl font-bold text-primaryText mb-2 group-hover:text-success transition-colors duration-300">Bachelor of Engineering</h3>
+                <div class="text-lg text-secondaryText mb-2 group-hover:text-primaryText transition-colors duration-300">Alexandria University</div>
+                <div class="text-success font-medium mb-3 bg-success/10 px-3 py-1 rounded-full inline-block group-hover:bg-success/20 transition-colors duration-300">2017 - 2021</div>
+                <p class="text-secondaryText leading-relaxed mb-4 group-hover:text-white transition-colors duration-300">
+                  Electronics & Communications Engineering. Graduated in top 5% of class. Final project: "AI-Powered Plant Disease Detection System."
+                </p>
+                <div class="text-sm text-secondaryText group-hover:text-white transition-colors duration-300">
+                  <strong>Relevant Courses:</strong> Signal Processing, Digital Systems, Programming, Mathematics
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Certifications -->
+    <section class="px-6 mb-20">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-primaryText">Skills & Certifications</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Technical Skills with Enhanced Progress Bars -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-6 text-primaryText group-hover:text-info transition-colors duration-300">Technical Skills</h3>
+            <div class="space-y-4">
+              <div class="skill-item group">
+                <div class="flex justify-between mb-2">
+                  <span class="text-primaryText group-hover:text-info transition-colors duration-300">Python</span>
+                  <span class="text-info font-medium">Expert</span>
+                </div>
+                <div class="w-full h-3 bg-neutral-700 rounded-full overflow-hidden group-hover:shadow-lg transition-shadow duration-300">
+                  <div class="h-full bg-gradient-to-r from-info to-accentLight rounded-full transition-all duration-1000 ease-out" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item group">
+                <div class="flex justify-between mb-2">
+                  <span class="text-primaryText group-hover:text-success transition-colors duration-300">PyTorch/TensorFlow</span>
+                  <span class="text-success font-medium">Advanced</span>
+                </div>
+                <div class="w-full h-3 bg-neutral-700 rounded-full overflow-hidden group-hover:shadow-lg transition-shadow duration-300">
+                  <div class="h-full bg-gradient-to-r from-success to-accentLight rounded-full transition-all duration-1000 ease-out" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item group">
+                <div class="flex justify-between mb-2">
+                  <span class="text-primaryText group-hover:text-warning transition-colors duration-300">Computer Vision</span>
+                  <span class="text-warning font-medium">Advanced</span>
+                </div>
+                <div class="w-full h-3 bg-neutral-700 rounded-full overflow-hidden group-hover:shadow-lg transition-shadow duration-300">
+                  <div class="h-full bg-gradient-to-r from-warning to-accentLight rounded-full transition-all duration-1000 ease-out" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item group">
+                <div class="flex justify-between mb-2">
+                  <span class="text-primaryText group-hover:text-error transition-colors duration-300">MLOps</span>
+                  <span class="text-error font-medium">Intermediate</span>
+                </div>
+                <div class="w-full h-3 bg-neutral-700 rounded-full overflow-hidden group-hover:shadow-lg transition-shadow duration-300">
+                  <div class="h-full bg-gradient-to-r from-error to-accentLight rounded-full transition-all duration-1000 ease-out" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enhanced Certifications -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-6 text-primaryText group-hover:text-success transition-colors duration-300">Certifications</h3>
+            <div class="space-y-4">
+              <div class="certification-item flex items-center gap-3 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/cert">
+                <span class="text-2xl group-hover/cert:scale-110 transition-transform duration-300">🏆</span>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/cert:text-success transition-colors duration-300">AWS Solutions Architect</div>
+                  <div class="text-sm text-secondaryText group-hover/cert:text-white transition-colors duration-300">Amazon Web Services</div>
+                </div>
+              </div>
+              <div class="certification-item flex items-center gap-3 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/cert">
+                <span class="text-2xl group-hover/cert:scale-110 transition-transform duration-300">🎯</span>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/cert:text-success transition-colors duration-300">Google Cloud ML Engineer</div>
+                  <div class="text-sm text-secondaryText group-hover/cert:text-white transition-colors duration-300">Google Cloud</div>
+                </div>
+              </div>
+              <div class="certification-item flex items-center gap-3 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/cert">
+                <span class="text-2xl group-hover/cert:scale-110 transition-transform duration-300">🐳</span>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/cert:text-success transition-colors duration-300">Docker Certified Associate</div>
+                  <div class="text-sm text-secondaryText group-hover/cert:text-white transition-colors duration-300">Docker Inc.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div class="card p-8 group hover:scale-105 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-6 text-primaryText group-hover:text-warning transition-colors duration-300">Languages</h3>
+            <div class="space-y-4">
+              <div class="language-item flex items-center gap-3 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/lang">
+                <span class="text-2xl group-hover/lang:scale-110 transition-transform duration-300">🇪🇬</span>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/lang:text-warning transition-colors duration-300">Arabic</div>
+                  <div class="text-sm text-secondaryText group-hover/lang:text-white transition-colors duration-300">Native</div>
+                </div>
+              </div>
+              <div class="language-item flex items-center gap-3 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/lang">
+                <span class="text-2xl group-hover/lang:scale-110 transition-transform duration-300">🇺🇸</span>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/lang:text-warning transition-colors duration-300">English</div>
+                  <div class="text-sm text-secondaryText group-hover/lang:text-white transition-colors duration-300">Fluent</div>
+                </div>
+              </div>
+              <div class="language-item flex items-center gap-3 p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300 group/lang">
+                <span class="text-2xl group-hover/lang:scale-110 transition-transform duration-300">🇫🇷</span>
+                <div>
+                  <div class="font-semibold text-primaryText group-hover/lang:text-warning transition-colors duration-300">French</div>
+                  <div class="text-sm text-secondaryText group-hover/lang:text-white transition-colors duration-300">Intermediate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="card p-12 group hover:scale-105 transition-all duration-300">
+          <h2 class="text-3xl font-bold mb-6 text-primaryText group-hover:text-info transition-colors duration-300">Ready to Work Together?</h2>
+          <p class="text-xl text-secondaryText mb-8 leading-relaxed group-hover:text-white transition-colors duration-300">
+            I'm always interested in new opportunities and exciting projects. Let's discuss how we can collaborate.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact.html" class="btn-primary group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">Get in Touch</span>
+            </a>
+            <a href="/projects.html" class="btn-secondary group hover:scale-105 transition-all duration-300">
+              <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">View My Work</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-12 px-6 border-t border-white/10 text-center text-secondaryText">
+    <p class="text-sm">Alexandria, Egypt • © <span id="year"></span> Ahmed Ashraf Helmi</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>
